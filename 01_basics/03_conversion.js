@@ -15,8 +15,29 @@ let value = Number(score)
 let isLoggedIn =1
 
 let booleanIsloggedin = Boolean(isLoggedIn)
-console.log(booleanIsloggedin);
+//console.log(booleanIsloggedin);
 
 // 1 => true 0 => false
 // "" => false
 // "rahul" => true
+
+// ************* operations ************
+
+let value1 =3
+let negvalue = -value1
+//console.log(negvalue);
+
+let str1 = "hello"
+let str2 = " rahul"
+let str3 = str1 + str2
+//console.log(str3);
+
+//console.log("1"+2);
+//console.log("1" +2 +2);
+//console.log(1+2+"2");
+//console.log(1+"2"+2);
+
+
+let game =100
+++game
+console.log(game);
